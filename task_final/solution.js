@@ -41,11 +41,10 @@ function sendRequest(name, phone, address, goods, sum) {
     };
     
     let countOfGoods = goods.length;
-    let tmpGoods = {};
 
     for (let i = 0; i < countOfGoods; i ++)
     {
-
+    	let tmpGoods = {};
         tmpGoods.title = goods[i].title;
         tmpGoods.count = goods[i].count;
 
