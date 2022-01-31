@@ -24,6 +24,7 @@ function renderProductsCards(json)
     {
         addProducts(products[i]);
     }
+    return
 }
 // Аргументом функции является JSON
 // Выполните функцию clearProducts - она уже написана в коде, просто вызовите ее, аргументы не требуются
